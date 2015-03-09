@@ -32,6 +32,9 @@ def create_dir(path, dirDict = {}):
 
     in your parent directory.
 
+    Author
+    ------
+    Manav : manavm@utexas.edu 
     '''
 
     folders = path.split('/')
@@ -89,6 +92,9 @@ def makeProjectDir(name, date = True, copyDir = './template', root = './' ):
     The project directory created includes 5 folders: *csv*, *figures*, *json*, *pickle*, *html*, 
     as well as a *readme.txt* file providing the author of the directory (in Linux os) as well as the creation date.
 
+    Author
+    ------
+    Anmol Garg : agarg@gmail.com
     '''
 
     #create folder name w/optional date

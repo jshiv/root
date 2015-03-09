@@ -11,7 +11,7 @@ root is a template folder structure for organizing work-flows
 
 ###repos
 
-repos is dedicated to maintaining source code and repositories such as this one. 
+repos is dedicated to maintaining source code and repositories. 
 >The folder includes sample python package which can be used as a template for developing your own packages. This repo can be setup from the command line via:
 ```
 cd ~

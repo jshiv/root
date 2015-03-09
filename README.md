@@ -6,6 +6,7 @@ root is a template folder structure for organizing workflows
   - repos
   - projects
   - plaground
+  - docs
 
 
 repos is dedicated to maintaining source code and reposotories such as this one. 
@@ -56,3 +57,11 @@ playground mantains the primary development environment
             results
         scratch "loose experiementation"
         
+
+###docs
+docs mantains a folder structure for general documentation and setup shell scripts
+
+    docs
+      whitepapers 
+      notes
+      setup

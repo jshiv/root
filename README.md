@@ -43,3 +43,16 @@ projects contains a standard setup for project orginization.
 ```
 python mkdir.py
 ```
+
+###playground
+playground mantains the primary development environment 
+
+>The folder structure of playground is designed to organize development efforts into typical design patterns, split between explicit package development to loose experiementation. 
+
+    playground
+        dev "package development"
+            data
+            input
+            results
+        scratch "loose experiementation"
+        

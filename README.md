@@ -65,3 +65,6 @@ docs mantains a folder structure for general documentation and setup shell scrip
       whitepapers 
       notes
       setup
+
+**Note**
+> This repo is ment to serve as a workflow template and not as a reposotory in and of its self. It is best to back up your work in the cloud and use github for the folders inside the repos folder.

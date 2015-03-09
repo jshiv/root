@@ -1,15 +1,17 @@
 # root
 
-root is a template folder structure for organizing workflows 
+root is a template folder structure for organizing work-flows 
 
 ###Folders structure
   - repos
   - projects
-  - plaground
+  - playground
   - docs
 
 
-repos is dedicated to maintaining source code and reposotories such as this one. 
+###repos
+
+repos is dedicated to maintaining source code and repositories such as this one. 
 >The folder includes sample python package which can be used as a template for developing your own packages. This repo can be setup from the command line via:
 ```
 cd ~
@@ -19,12 +21,13 @@ cd root
 >and they python package can be installed via:
 ```
 cd repos
+cd template
 python setup.py install
 ```
 
 ###projects
 
-projects contains a standard setup for project orginization.
+projects contains a standard setup for project organization.
 
 >The folder structure is as follows:
 
@@ -46,20 +49,20 @@ python mkdir.py
 ```
 
 ###playground
-playground mantains the primary development environment 
+playground maintains the primary development environment 
 
->The folder structure of playground is designed to organize development efforts into typical design patterns, split between explicit package development to loose experiementation. 
+>The folder structure of playground is designed to organize development efforts into typical design patterns, split between explicit package development to loose experimentation. 
 
     playground
         dev "package development"
             data
             input
             results
-        scratch "loose experiementation"
+        scratch "loose experimentation"
         
 
 ###docs
-docs mantains a folder structure for general documentation and setup shell scripts
+docs maintains a folder structure for general documentation and setup shell scripts
 
     docs
       whitepapers 
@@ -67,4 +70,4 @@ docs mantains a folder structure for general documentation and setup shell scrip
       setup
 
 **Note**
-> This repo is ment to serve as a workflow template and not as a reposotory in and of its self. It is best to back up your work in the cloud and use github for the folders inside the repos folder.
+> This repo is meant to serve as a work-flow template and not as a repository in and of its self. It is best to back up your work in the cloud and use github for the folders inside the repos folder.

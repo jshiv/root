@@ -1,0 +1,6 @@
+.domino/
+domino.log
+results/
+input/
+requirements.txt
+.dominoignore

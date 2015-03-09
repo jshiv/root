@@ -18,7 +18,7 @@ cd ~
 git clone https://github.com/jshiv/root.git
 cd root
 ```
->and they python package can be installed via:
+>and the python package can be installed via:
 ```
 cd repos
 cd template

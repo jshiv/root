@@ -12,14 +12,11 @@ root is a template folder structure for organizing work-flows
 ###repos
 
 repos is dedicated to maintaining source code and repositories. 
->The folder includes sample python package which can be used as a template for developing your own packages. This repo can be setup from the command line via:
+>The folder includes sample python package which can be used as a template for developing your own packages. Go ahead and download this folder structure as a zip on the right hand side of the git hub page.
+
+>The python package can be installed via:
 ```
-cd ~
-git clone https://github.com/jshiv/root.git
-cd root
-```
->and the python package can be installed via:
-```
+cd root-master
 cd repos
 cd template
 python setup.py install

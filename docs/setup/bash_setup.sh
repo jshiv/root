@@ -37,18 +37,5 @@ LINE_TO_ADD='export JAVA_HOME="/Library/Internet Plug-Ins/JavaAppletPlugin.plugi
 check_if_line_exists || add_line_to_profile
 
 
-LINE_TO_ADD='export DOMINO_API_HOST=http://domino.teslamotors.com:9000'
-check_if_line_exists || add_line_to_profile
-
-
-echo "Please your domino API Key: "
-echo "http://domino.teslamotors.com:9000/account"
-read apikey
-
-
-
-LINE_TO_ADD="export DOMINO_USER_API_KEY='$apikey'"
-check_if_line_exists || add_line_to_profile
-
 
 
